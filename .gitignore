@@ -1,0 +1,25 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+hs_err_pid*
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Logs and local runtime data
+*.log
+logs/
+.DS_Store
+Thumbs.db
