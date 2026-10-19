@@ -1,25 +1,33 @@
-# Java / Maven
+HELP.md
 target/
-*.class
-*.jar
-*.war
-hs_err_pid*
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# IDEs
-.idea/
-.vscode/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
+*.ipr
 
-# Local secrets and environment files
-.env
-.env.*
-!.env.example
-secrets/
-*.pem
-*.key
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# Logs and local runtime data
-*.log
-logs/
-.DS_Store
-Thumbs.db
+### VS Code ###
+.vscode/
